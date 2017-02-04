@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="ionicApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>index</title>
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="libs/css/ionic.min.css"/>
+    <link rel="stylesheet" href="libs/css/common.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<header class="title">
+    <h2>Start the Journey by Avital</h2>
+</header>
+<ion-slide-box active-slide="myActiveSlide" auto-play="true" does-continue="true" slide-interval=2000 >
+    <ion-slide>
+        <div class="img"><img src="images/banner_03.jpg" alt=""/></div>
+    </ion-slide>
+    <ion-slide>
+        <div class="img"><img src="images/banner_03.jpg" alt=""/></div>
+    </ion-slide>
+    <ion-slide on-slide-changed="slideHasChanged(index)">
+        <div class="img"><img src="images/banner_03.jpg" alt=""/></div>
+    </ion-slide>
+</ion-slide-box>
+<div class="btn">
+    <button class="button button-block button-positive">Login Now!</button>
+</div>
+
+<script type="text/javascript" src="libs/js/ionic.bundle.min.js"></script>
+<script type="text/javascript" src="libs/js/ionic.min.js"></script>
+<script type="text/javascript" src="libs/js/ionic-angular.min.js"></script>
+<script>
+    angular.module('ionicApp', ['ionic'])
+            .controller('SlideController', function($scope) {
+                $scope.myActiveSlide = 1;
+            })
+</script>
+</body>
+</html>

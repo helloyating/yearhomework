@@ -1,0 +1,27 @@
+body {
+  background: #1F1923; }
+
+.contain {
+  margin-top: 44px; }
+  .contain .news-text {
+    padding-top: 33px;
+    text-align: center; }
+    .contain .news-text h3 {
+      color: #fff;
+      font-size: 18px; }
+    .contain .news-text ul {
+      color: #fff;
+      font-size: 12px; }
+      .contain .news-text ul li {
+        line-height: 20px; }
+    .contain .news-text button {
+      color: #fff;
+      margin-top: 20px;
+      height: 44px;
+      width: 40%;
+      background: #DB0D3B;
+      border-radius: 22px;
+      border-color: #DB0D3B;
+      margin-bottom: 55px; }
+
+/*# sourceMappingURL=news1.css.map */

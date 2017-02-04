@@ -1,0 +1,33 @@
+body {
+  width: 100%;
+  height: 100%;
+  background: url("../images/bg.jpg") no-repeat;
+  background-size: 100% auto; }
+
+.title {
+  width: 240px;
+  margin: 95px auto 50px auto;
+  text-align: center; }
+  .title h2 {
+    color: #fff; }
+
+.img {
+  width: 323px;
+  height: 323px;
+  margin: 0 auto 20px auto; }
+  .img img {
+    width: 100%;
+    height: 100%; }
+
+.btn{
+  width: 325px;
+  height: 47px;
+  margin: 0 auto;
+}
+.button{
+  border-radius: 25px;
+}
+
+
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,60 @@
+.person {
+  margin-top: 44px; }
+  .person dl {
+    padding: 40px 0;
+    height: 180px;
+    background: #F5F3F8; }
+    .person dl dt {
+      float: left;
+      height: 100px;
+      width: 100px;
+      background: #fff;
+      border-radius: 50px;
+      text-align: center;
+      margin-left: 10px; }
+      .person dl dt img {
+        margin-top: 20px;
+        height: 50px;
+        width: auto; }
+    .person dl dd {
+      margin-top: 45px;
+      float: left;
+      padding-left: 10px;
+      color: #BEBBC2;
+      font-size: 14px; }
+
+.list ul li {
+  color: #A6A4A9;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  border-bottom: 1px solid #D2D2D2; }
+  .list ul li span {
+    float: right;
+    color: #000; }
+
+.toggle input {
+  display: none; }
+  .toggle input:checked + .tack .handler {
+    background: #FFFFFF;
+    margin-left: 20px;
+    -webkit-transition: margin-left 0.5s; }
+  .toggle input:checked + .tack {
+    background: purple;
+    -webkit-transition: background 3s; }
+.toggle .tack {
+  margin-top: 10px;
+  height: 30px;
+  width: 50px;
+  border-radius: 15px;
+  border: 1px solid #ccc; }
+  .toggle .tack .handler {
+    height: 28px;
+    width: 29px;
+    border-radius: 100%;
+    border: 1px solid #ccc;
+    margin-left: 0;
+    background: #FFFFFF;
+    -webkit-transition: margin-left 0.8s; }
+
+/*# sourceMappingURL=profile3.css.map */
